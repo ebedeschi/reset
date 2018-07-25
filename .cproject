@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="io.sloeber.core.toolChain.release.1413688540">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="io.sloeber.core.toolChain.release.1413688540" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="io.sloeber.core.toolChain.release.1413688540" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="io.sloeber.core.toolChain.release.1413688540.22657961" name="/" resourcePath="">
+						<toolChain id="io.sloeber.core.toolChain.release.2122435256" name="Arduino Toolchain (Sloeber edition)" superClass="io.sloeber.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.1004022963" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
+							<builder buildPath="${workspace_loc:/reset}/Release" id="io.sloeber.sketch.builder.871739382" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="io.sloeber.sketch.builder"/>
+							<tool id="io.sloeber.tool.sketch.compiler.cpp.1143507591" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp">
+								<option id="io.sloeber.compiler.cpp.sketch.option.incpath.839958608" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/Adafruit_ASFcore}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/arduino-api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/arduinoLoRaWAN}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/libraries/RTCZero}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/libraries/RTCZero/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/libraries/Adafruit_SleepyDog_Library}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/libraries/Adafruit_SleepyDog_Library/utility}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.cpp.sketch.input.1976272333" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.compiler.c.134068028" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c">
+								<option id="io.sloeber.compiler.c.sketch.option.incpath.1533595445" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/Adafruit_ASFcore}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/arduinoLoRaWAN}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/arduino-api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/libraries/RTCZero}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/libraries/RTCZero/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/libraries/Adafruit_SleepyDog_Library}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/libraries/Adafruit_SleepyDog_Library/utility}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.c.sketch.input.1381116912" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.sketch.compiler.s.1526650116" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s">
+								<option id="io.sloeber.compiler.asm.sketch.option.incpath.671795200" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/libraries/RTCZero}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/libraries/RTCZero/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/libraries/Adafruit_SleepyDog_Library}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/reset/libraries/Adafruit_SleepyDog_Library/utility}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.S.sketch.input.443083667" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.ar.2060419013" name="Arduino archiver" superClass="io.sloeber.tool.ar"/>
+							<tool id="io.sloeber.tool.combine.245090570" name="Arduino combiner" superClass="io.sloeber.tool.combine"/>
+							<tool id="io.sloeber.tool.objcopy.eep.459964872" name="Arduino tool Create eeprom" superClass="io.sloeber.tool.objcopy.eep"/>
+							<tool id="io.sloeber.tool.size.123626136" name="Arduino tool Print Size" superClass="io.sloeber.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries/**/._*|libraries/?*/utility/*/*" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="reset.null.1579912560" name="reset"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>
